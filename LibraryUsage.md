@@ -1,7 +1,7 @@
 # Vector
 ### Sum of all elements of a vector
 **std::accumulate()**\
-The std::accumulate() function is used to find the sum (or any other binary operation) of all the values lying in a range.
+The std::accumulate() function is used to find the sum (or any other binary operation) of all the values lying in a range. **Used it for Array(int arr[] = {1,2,3}) and Vector**
 
 **Syntax**\
 std::accumulate(first, last, init, op);
