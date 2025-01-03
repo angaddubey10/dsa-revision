@@ -8,3 +8,14 @@ void fillPrefixSum(int arr[], int n, int prefixSum[]){
         prefixSum[i] = prefixSum[i - 1] + arr[i];
 }
 ```
+
+# Check Vowels - A Better Way
+```cpp
+// General Style
+bool isVowel(char ch){
+    return (ch=='a' || ch=='e' || ch=='i' || ch=='o'|| ch=='u');
+}
+// Better Approach - Easy but we don't use it often
+unordered_set<char> vowels{'a', 'e', 'i', 'o', 'u'};
+if(vowels.count(ch)) 
+ 
